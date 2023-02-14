@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('../images/banner.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+   padding-top: 10px;
+
+}
+nav{
+    background-color: #000;
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    color:#fff;
+    margin: 0 10px;
+}
+#hdiv1{
+    margin: 10px 10px;
+}
+#hdiv1 p , #hdiv1 h1{
+    font-weight: bold; 
+}
+#hdiv1 p{
+    font-size: small;
+}
+
+#hdiv1 button{
+
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+#hdiv2{
+margin-top: 20px;
+padding: 5px;
+background-color: #000;
+text-align: left;
+}
+#hdiv3{
+    background-color: rgb(255, 199, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+.flexbox{
+    display:flex;
+    flex-direction: column;
+    align-items:Center;
+    justify-content: space-around;
+}
+.deals{
+    padding:20px;
+}
+.child1{
+    width:250px;
+   margin: 10px 0;
+}
+.child1 img{
+    width:250px;
+}
+
+.card{
+    padding: 10px;
+    height: 200px;
+}
+.arrivals{
+    padding: 50px ;
+}
+.flexbox2{
+    display:flex;
+    flex-direction: column;
+    align-items:Center;
+    justify-content: space-around;
+}
+.new{
+    width:150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.order{
+    padding:20px 5px;
+}
+#achieve{
+    background-color:#000;
+    color: #fff;
+    padding: 50px 10px;
+}
+.coimg{
+    width: 200px;
+    height: 200px;
+    margin:20px 0;
+}
+.company{
+    margin: 10px 10px;
+}
+.company h1{
+    margin-bottom: 10px;
+}
+.flexbox3{
+   display:flex;
+    flex-direction: column;
+    align-items:Center;
+    justify-content: space-around;
+}
+#contact{
+    background-image: url(../images/contactus.jpg);
+    background-position: center;
+}
+.contactdiv{
+background-color: rgba(146, 180, 199, 0.6);
+display: flex;
+flex-direction: column;
+align-items:Center;
+justify-content: space-around;
+padding: 10px 5px;
+}
+.conchild1{
+    margin: 20px;
+}
+.conchild2 form{
+    border: thin solid rgb(255, 188, 0); 
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px  rgb(255, 188, 0) ;
+}
+.conchild2 form input{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+}
+footer{
+    background-color: #000;
+    border-top: 10px solid  rgb(255, 188, 0);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+align-items:Center;
+justify-content: space-around;
+}
+footer div{
+    margin: 10px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    header{
+       padding-top: 20px;
+    }
+    
+    nav {
+        text-align: right;   
+     }
+     #hdiv1{
+        margin-top: 200px ;
+        margin-left:100px ;
+    }
+     #hdiv1 button{
+    
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    #hdiv2{
+        margin-top: 50px ;
+        padding: 20px;
+        }
+        .arrivals{
+            padding: 50px 150px;
+        }
+        .flexbox2{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+.new{
+    margin-left: 10px;
+}
+.order{
+    padding:50px 150px;
+}
+.flexbox3{
+    flex-direction: row;
+}
+#achieve{
+    padding: 50px 50px;
+}
+.coimg{
+    width: 250px;
+    height: 250px;
+}
+.flexbox4{
+   
+    flex-wrap: wrap;
+}
+.contactdiv{
+    flex-direction: row;
+    padding: 60px 100px;
+    }
+    .conchild1{
+        margin: 20px;
+    }
+
+    .conchild2  form input{
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+    }
+    footer{
+       
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #container{
+        margin-left: auto;
+        margin-right: auto;
+        width:950px;
+    }
+    #hdiv2{
+        margin-top: 100px ;
+        padding: 50px;
+        }
+        .flexbox{
+            flex-direction: row;
+        }
+        .deals{
+            padding:50px;
+        }
+        .coimg{
+            width: 300px;
+            height: 300px;
+        }
+}
+/* Extra large devices (large desktops, 1200pxand up) */
+@media (min-width: 1200px) {
+}
